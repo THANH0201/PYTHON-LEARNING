@@ -29,7 +29,7 @@ num3 = int(input("Enter the third integer number please:"))
 print(f"The sum of three integer numbers is: {num1 + num2 + num3}")
 print(f"The product of the three integer numbers is {num1 * num2 * num3}")
 print(f"The average of the three integer numbers is {(num1 + num2 + num3)/3:.3f}")
-"""
+
 #Exercise 5
 #Write a program that asks the user to enter a mass in medieval units: talents (leiviskä), pounds (naula), and lots (luoti). The program converts the input to full kilograms and grams and outputs the result to the user:
 #One talent is 20 pounds.
@@ -41,6 +41,15 @@ pounds = float(input("Enter pound please:"))
 print(pounds)
 lots = float(input("Enter lots please:"))
 print(lots)
-print(f"The weight in modern units:)\n {int(0.001*((13.3*lots)+(pounds*32*13.3)+(talents*20*32*13.3)))} kilograms and {(13.3*lots)+(pounds*32*13.3)+(talents*20*32*13.3)} grams")
+total_kg = (0.001*((13.3*lots)+(pounds*32*13.3)+(talents*20*32*13.3)))
+print(f"The weight in modern units:)\n {int(total_kg)} kilograms and {((total_kg)-(int(total_kg)))*1000:.2f} grams")
+
+#Exercise 6
+# Write a program that draws two random combinations of numbers for a combination lock:
+print(f"A 3-digit code where each number is between 0 and 9 is: {random.randint(0,999):03d}")
+print(f"A 4-digit code where each number is between 1 and 6 is: {random.randint(1,6)}{random.randint(1,6)}{random.randint(1,6)}{random.randint(1,6)}")
+"""
+
+
 
 
