@@ -1,3 +1,4 @@
+#CONDITIONAL STRUCTURES (if)
 import math
 import random
 """
