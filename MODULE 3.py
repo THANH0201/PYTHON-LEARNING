@@ -49,9 +49,13 @@ elif gender == "MALE":
                 print("Your hemoglobin is low than minimum value")
         else:   print("Your hemoglobin is higher than maximum value")
 else: print("Please enter the gender as CAPSLOCK text")
-"""
+
 #EXERCISE
 #Write a program that asks the user to enter a year and notifies the user whether the input year is a leap year.
 #A year is a leap year if it is divisible by four. However, years divisible by 100 are leap years only if they are
 #also divisible by 400.
-qqqq
+year = int(input("Please enter a year: "))
+if year % 4 == 0 or (year % 100 == 0 and year % 400 == 0):
+    print(str(year), "is a leap year")
+else: print(str(year), "is not a leap year")
+"""
