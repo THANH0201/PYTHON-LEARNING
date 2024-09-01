@@ -62,3 +62,12 @@ if year % 4 == 0 or (year % 100 == 0 and year % 400 == 0):
     print(str(year), "is a leap year")
 else: print(str(year), "is not a leap year")
 """
+input_number = input("Enter the numbers, enter empty string to exit:")
+i = 0
+while input_number != " ":
+    if input_number == :
+        
+        print(f"The smallest number is")
+        print(f"The largest number is")
+    else:
+        break
