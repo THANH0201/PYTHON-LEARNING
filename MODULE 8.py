@@ -1,3 +1,7 @@
+#NAME: THANH HONG THI NGUYEN
+#DATE: 15-SEP-2024
+#MODULE 8:
+
 import mariadb
 import random
 import math
